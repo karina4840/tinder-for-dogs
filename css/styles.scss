@@ -106,4 +106,15 @@ body {
         }
 
     }
+
+    #press {
+        background-color: $peach;
+        text-align: center;
+        padding-bottom: 3%;
+
+        .logo {
+            width: 15%;
+            margin: 20px 20px 50px;
+        }
+    }
 }
