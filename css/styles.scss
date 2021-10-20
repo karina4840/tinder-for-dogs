@@ -1,0 +1,109 @@
+@import 'variables';
+
+body {
+    font-family: $fontM;
+    
+    #title {
+        background-color: $fuschia;
+
+        .container-fluid {
+            padding: 3% 15%;
+
+            // Navigation Bar
+            .navbar {
+                padding: 0 0 4.5rem 0;
+            
+                .navbar-brand {  
+                    text-transform: lowercase;
+                    font-family: $fontU;
+                    font-size: 2rem;
+                    font-weight: 500;
+                }
+
+                .nav-item {
+                    padding: 0 18px;
+
+                    .nav-link {
+                        font-size: 1.2rem;
+                        font-family: $fontM;
+                    }
+                }
+            } 
+
+            // Title 
+            h1 {
+                font-family: $fontM;
+                font-weight: 700;
+                font-size: 3.5rem;
+                line-height: 1.5;
+                color: white;
+            }
+            // Buttons
+            .download-button {
+                margin: 5% 3% 5% 0;
+                font-family: $fontM;
+
+                // Platform Icons
+                .fab { 
+                    margin-right: 7px;
+                }
+            }
+            
+            // Mockup Image 
+            .title-image {
+                width: 60%;
+                transform: rotate(20deg);
+            }
+        }
+    }
+
+    #features {
+        padding: 7% 15%;
+
+        .description {
+            text-align: center;
+            padding: 5%;
+
+            h3 {
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+
+            p {
+                color: #8f8f8f;
+                font-size: 1rem;
+            }
+
+            .icon {
+                color: $peach;
+                margin-bottom: 1rem;
+            }
+
+            & :hover {
+                color: $fuschia;
+            }
+
+        }
+    }
+
+    #testimonials {
+        padding: 7% 15%;
+        text-align: center;
+        background-color: $peach;
+        color: white;
+
+        h2 {
+            font-family: $fontM;
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 1.5;
+        }
+        
+        .testimonial-image {
+            width: 10%;
+            border-radius: 100%;
+            margin: 20px;
+        }
+
+    }
+}

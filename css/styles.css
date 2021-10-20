@@ -1,0 +1,103 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body #title {
+  background-color: #ff4c68;
+}
+
+body #title .container-fluid {
+  padding: 3% 15%;
+}
+
+body #title .container-fluid .navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+body #title .container-fluid .navbar .navbar-brand {
+  text-transform: lowercase;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+body #title .container-fluid .navbar .nav-item {
+  padding: 0 18px;
+}
+
+body #title .container-fluid .navbar .nav-item .nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+body #title .container-fluid h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+body #title .container-fluid .download-button {
+  margin: 5% 3% 5% 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body #title .container-fluid .download-button .fab {
+  margin-right: 7px;
+}
+
+body #title .container-fluid .title-image {
+  width: 60%;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
+body #features {
+  padding: 7% 15%;
+}
+
+body #features .description {
+  text-align: center;
+  padding: 5%;
+}
+
+body #features .description h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+body #features .description p {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+body #features .description .icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+body #features .description :hover {
+  color: #ff4c68;
+}
+
+body #testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+body #testimonials h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+body #testimonials .testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
