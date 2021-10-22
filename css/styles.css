@@ -4,6 +4,8 @@ body {
 
 body #title {
   background-color: #ff4c68;
+  position: relative;
+  min-height: 80vh;
 }
 
 body #title .container-fluid {
@@ -30,9 +32,9 @@ body #title .container-fluid .navbar .nav-item .nav-link {
   font-family: "Montserrat", sans-serif;
 }
 
-body #title .container-fluid h1 {
+body #title .container-fluid .head-title {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
   color: white;
@@ -48,13 +50,17 @@ body #title .container-fluid .download-button .fab {
 }
 
 body #title .container-fluid .title-image {
+  position: absolute;
   width: 60%;
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
 }
 
 body #features {
-  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  padding: 15% 15%;
 }
 
 body #features .description {
@@ -63,7 +69,7 @@ body #features .description {
 }
 
 body #features .description h3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 1.5rem;
 }
 
@@ -77,12 +83,12 @@ body #features .description .icon {
   margin-bottom: 1rem;
 }
 
-body #features .description :hover {
+body #features .description .icon:hover {
   color: #ff4c68;
 }
 
 body #testimonials {
-  padding: 7% 15%;
+  min-height: 70vh;
   text-align: center;
   background-color: #ef8172;
   color: white;
@@ -101,14 +107,109 @@ body #testimonials .testimonial-image {
   margin: 20px;
 }
 
+body #testimonials .carousel-item {
+  padding: 7% 15%;
+}
+
 body #press {
+  min-height: 30vh;
   background-color: #ef8172;
   text-align: center;
-  padding-bottom: 3%;
+  padding: 3% 0;
 }
 
 body #press .logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+body #pricing {
+  padding: 15% 15%;
+  min-height: 60vh;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+body #pricing .head-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+body #pricing .head-text {
+  font-size: 1.2rem;
+  padding: 10px 0 30px 0;
+}
+
+body #pricing .card {
+  min-height: 100%;
+  text-align: center;
+}
+
+body #pricing .card .header {
+  font-weight: 700;
+}
+
+body #pricing .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #pricing .card .monthly-price {
+  font-weight: 900;
+}
+
+body #pricing .card .btn {
+  font-weight: 500;
+  width: 70%;
+}
+
+body #cta {
+  padding: 15% 15%;
+  min-height: 50vh;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+body #cta .head-title {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+body #cta .download-button {
+  margin: 5% 3% 5% 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body #cta .download-button .fab {
+  margin-right: 7px;
+}
+
+body #footer {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
 }
 /*# sourceMappingURL=styles.css.map */
